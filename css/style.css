@@ -11,6 +11,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100vw;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 body {
@@ -341,6 +348,7 @@ footer {
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+        margin-right: 0.5rem;
     }
 
     .nav-links {
@@ -357,6 +365,8 @@ footer {
         margin: 0;
         transition: right 0.3s ease;
         z-index: 1000;
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
 
     .nav-links.active {
@@ -391,5 +401,18 @@ footer {
     .contact-info {
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .nav-content {
+        padding: 0 1rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .section {
+        padding: 5rem 1rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 }
