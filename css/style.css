@@ -331,6 +331,11 @@ footer {
     transform: translateY(-5px);
 }
 
+.justified-text li {
+    text-align: justify;
+}
+
+
 /* Animations */
 .fade-in {
     opacity: 0;
