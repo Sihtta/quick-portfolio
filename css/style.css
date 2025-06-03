@@ -528,3 +528,36 @@ footer {
 .cv-button i {
     font-size: 1.2rem;
 }
+
+.education-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.education-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: white;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+.education-logo:hover {
+    transform: scale(1.1);
+}
+
+.education-logo-small {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.education-logo-small:hover {
+    transform: scale(1.05);
+}
